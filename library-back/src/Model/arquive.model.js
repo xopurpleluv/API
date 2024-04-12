@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 const ItemArquive = mongoose.Schema({
-    item_name: {String, required: true},
-    item_description: {String, required: true},
-    item_date_creation: {Date, required: true}
+    item_name: {String},
+    item_description: {String},
+    item_date_creation: {Date}
 });
 
 module.exports = mongoose.model("Item", ItemArquive)

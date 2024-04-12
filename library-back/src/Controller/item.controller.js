@@ -1,4 +1,4 @@
-const ItemArquive = require("../Model/arquive.model");
+const ItemSchema = require("../Model/arquive.model")
 
 async function getItem(req,res) {
     let id = req.params.id;
