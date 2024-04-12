@@ -58,3 +58,11 @@ async function deleteItem(req,res) {
         res.status(500).json({ message: error})
     }
 }
+
+module.exports = {
+    getItem,
+    getAllItens,
+    createItem,
+    updateItem,
+    deleteItem
+}
